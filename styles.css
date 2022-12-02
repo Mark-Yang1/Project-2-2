@@ -17,6 +17,7 @@ h1 {
 .split {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .mainpagecontent {
@@ -50,6 +51,25 @@ p {
     width: 60vw;
 }
 
+.mainpageimage {
+    display: flex;
+align-items: center;
+}
+
 .mainpageimage > img {
-    width: 20vw
+    width: 20vw;
+    box-sizing: border-box;
+    border: black solid 3px;
+}
+
+.howSpotImg{
+    box-sizing: border-box;
+    border: black solid 3px;
+    width: 20vw;
+}
+.howSpotImgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
