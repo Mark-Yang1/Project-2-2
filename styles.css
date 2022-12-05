@@ -73,3 +73,24 @@ align-items: center;
     justify-content: space-between;
 
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.footeright > p {
+    justify-content: space-around;
+}
+
+
+.aboutpagesubsection1 {
+    background-color: #1F3E48;
+    color: white;
+}
+
+.h2 {
+    background-color: #1F3E48;
+    color: white;
+}
