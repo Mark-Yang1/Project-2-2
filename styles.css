@@ -1,5 +1,6 @@
 body {
     background-color: #D9F6FF;
+    margin:0px;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
 .mainpagecontent {
     background-color: #1F3E48;
     color: white;
+    width: 60vw;
 }
 
 .mainheader {
@@ -47,13 +49,14 @@ p {
     margin-right: 5px;
 }
 
-.mainpagecontent {
-    width: 60vw;
+.mainlogo {
+    display:flex;
+    flex-direction:row; 
 }
 
 .mainpageimage {
     display: flex;
-align-items: center;
+    align-items: center;
 }
 
 .mainpageimage > img {
@@ -78,6 +81,7 @@ align-items: center;
     background-color: black;
     color: white;
     display: flex;
+    width:100%;
 }
 
 .footeright > p {
@@ -90,7 +94,25 @@ align-items: center;
     color: white;
 }
 
-.h2 {
-    background-color: #1F3E48;
-    color: white;
+.margin-15 {
+    margin:20px;
+}
+
+a,
+a:after,
+a:before {
+    color: #0057FF;
+    text-decoration:none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
