@@ -162,3 +162,39 @@ main {
     display: flex;
     justify-content: center;
 }
+
+/*page2*/
+
+.flexbruj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.flexbruj2{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbruj2>article{
+    width: 55%;
+}
+.flexbruj2>img{
+    width: 35%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: black solid 3px;
+    background-color: black;
+}
+
+.rev{
+    flex-direction: row-reverse;
+}
+
+.phishlink{
+    display: flex;
+    justify-content: space-around;
+}
